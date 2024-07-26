@@ -4,23 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NoctuaMC</title>
-    <link rel="stylesheet" rehref="/Estilos/main.css" type="texy/css" />
+    <link rel="stylesheet" href="/Estilos/main.css" type="Text/css" />
+    <link
+      href="https://fonts.cdnfonts.com/css/proxima-nova-condensed"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.cdnfonts.com/css/proxima-nova-condensed");
+    </style>
   </head>
   <body>
     <!--banner de la pagina-->
-    <h1>
-      Si quieres pagar con Otros metodos de pago, Contacta al OWNER INDRA /
-      RUZIZA por Discord.
-    </h1>
-    <div><img class="Banner" src="/IMG/Noctualogo.png" /></div>
+    <div class="Pagos">
+      <h1>
+        Otros metodos de pago, Contacta al Owner INDRA / RUZIZA por Discord.
+      </h1>
+    </div>
+    <div class="Logo">
+      <img class="Banner" src="/IMG/Noctualogo.png" />
+      <h1>Servidor para jugar y compartir con tus amigos</h1>
+    </div>
     <div>
       <button class="ButoonPlay">Juega Ahora</button>
       <button class="ButtonDiscord">Discord</button>
       <!--Formulario para Login de usuarios de minecraft para enlasar con SQL y codigo de JavaScript
       cualquier cambio que se le quiera realizar al loggin hacerlo desde este div
       -->
-      <div id="Login">
-        <form class="Login">
+      <div class="Login">
+        <form>
           <input type="text" placeholder="Ingrese Aqui su Nick de Minecraft" />
           <input type="submit" value="Login" />
         </form>
@@ -89,7 +100,7 @@
         </ul>
       </div>
       <!--contenido de la pagina-->
-      <div>
+      <div class="State">
         <h1>Top Donador</h1>
       </div>
       <div>
@@ -99,17 +110,17 @@
         <h1>Estado del Servidor</h1>
         <h2>NOCTUAMC.CO</h2>
       </div>
-      <div>
+      <div class="button">
         <button class="PlayingNow">Jugar Ahora!</button>
       </div>
     </div>
-    <div>
+    <div class="Welcom">
       <p1
         >BIENVENIDOS A LA TIENDA DE <br />
         NoctuaMC</p1
       >
     </div>
-    <div>
+    <div class="ShopStart">
       <h1>40% de descuento en toda la tienda de NoctuaMC</h1>
       <img src="/IMG/Metodos de pago.png" />
     </div>
@@ -133,8 +144,8 @@
       </P1>
     </div>
     <!--PIE DE PAJINA-->
-    <footer class="Footer">
-      <div>
+    <footer>
+      <div class="Footer">
         <h1>Condiciones de Compra</h1>
         <p>
           Todos los pagos son finales y no reembolsables. Intentar un
@@ -154,7 +165,7 @@
           Politicas y condiciones
         </button>
       </div>
-      <div>
+      <div class="Copyright">
         <h1>Copyright © NoctuaMC 2024.</h1>
         <h2>
           Desarrollado por INDRA DEV, NoctuaMC Network NO esta afiliado a

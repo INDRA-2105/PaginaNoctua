@@ -1,3 +1,29 @@
 body {
-  background-color: bisque;
+  background-image: url(/IMG/WalpaperPagina.jpg);
+  background-repeat: no-repeat;
+  color: #ffffff;
+  font-family: "Proxima Nova Condensed 900", sans-serif;
+}
+.Pagos {
+  color: #2e2e2e;
+  padding: 8px;
+  background-color: #00a09b;
+  font-size: 10px;
+  font-family: "Proxima Nova Condensed 900", sans-serif;
+  max-width: 1920px;
+}
+.Banner {
+  align-items: center;
+  height: 400px;
+  width: 400px;
+  border-radius: 200px;
+  padding: 10px;
+}
+.Logo {
+  font-family: monospace;
+  font-size: 10px;
+  height: 600px;
+  width: 33%;
+  background-image: url(/IMG/Fondo.jpeg);
+  background-repeat: no-repeat;
 }
