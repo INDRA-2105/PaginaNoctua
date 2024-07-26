@@ -1,22 +1,31 @@
+/*estilizacion del cuerpo de la pagina*/
 body {
+  background-color: #2e2e2e;
   background-image: url(/IMG/WalpaperPagina.jpg);
   background-repeat: no-repeat;
+  background-size: 1920px;
   color: #ffffff;
+  height: 100%;
+  margin: auto;
   font-family: "proxima-nova", sans-serif;
   font-style: italic;
   font-weight: 900;
   text-decoration: none;
 }
+/*Estilos de metodos de pagos alternativos*/
 .Pagos {
+  height: 80px;
+  width: 100%;
   color: #2e2e2e;
-  padding: 8px;
+  display: flex;
   background-color: #00a09b;
+  justify-content: center;
+  align-items: center;
   font-size: 10px;
   font-family: "proxima-nova", sans-serif;
-  text-align: center;
-  max-width: 1920px;
   box-shadow: 2px 5px 10px rgb(0, 0, 0);
 }
+/*Estilos del logo de noctua*/
 .Logo {
   border-radius: 500px;
   height: 200px;
@@ -33,11 +42,14 @@ body {
   text-align: center;
   color: #151313;
 }
+/*Menu de navegacion de la pagina*/
 .Menu {
   margin: auto;
-  display: flex;
+  display: block;
   padding: 20px;
   position: relative;
+  background-color: #00a09b;
+  box-shadow: 2px 5px 10px rgb(0, 0, 0);
 }
 .Menu li {
   color: white;
@@ -48,7 +60,19 @@ body {
   text-decoration: none;
   color: #ffffff;
   margin: auto;
-  display: flexbox;
+  display: inline-block;
   justify-content: center;
   width: 10px;
+  background-color: #018168;
+  padding: 10px;
+}
+.Menu a:link {
+  color: white;
+}
+
+.Menu a:visited {
+  color: Black;
+}
+.Menu a:hover {
+  color: gray;
 }
