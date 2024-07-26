@@ -3,6 +3,7 @@ body {
   background-repeat: no-repeat;
   color: #ffffff;
   font-family: "Proxima Nova Condensed 900", sans-serif;
+  text-decoration: none;
 }
 .Pagos {
   color: #2e2e2e;
@@ -26,4 +27,8 @@ body {
   width: 33%;
   background-image: url(/IMG/Fondo.jpeg);
   background-repeat: no-repeat;
+  text-align: center;
+}
+.Menu > ul > li {
+  text-decoration: none;
 }
