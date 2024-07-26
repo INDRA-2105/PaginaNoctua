@@ -40,7 +40,8 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: #151313;
+  color: #252c2b;
+  text-shadow: 2px 5px 19px #252c2b;
 }
 /*Menu de navegacion de la pagina*/
 .Menu {
