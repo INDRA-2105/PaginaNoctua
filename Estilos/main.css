@@ -2,7 +2,7 @@ body {
   background-image: url(/IMG/WalpaperPagina.jpg);
   background-repeat: no-repeat;
   color: #ffffff;
-  font-family: "Proxima Nova Condensed 900", sans-serif;
+  font-family: monospace;
   text-decoration: none;
 }
 .Pagos {
@@ -10,7 +10,8 @@ body {
   padding: 8px;
   background-color: #00a09b;
   font-size: 10px;
-  font-family: "Proxima Nova Condensed 900", sans-serif;
+  font-family: monospace;
+  text-align: center;
   max-width: 1920px;
 }
 .Banner {
@@ -29,6 +30,16 @@ body {
   background-repeat: no-repeat;
   text-align: center;
 }
-.Menu > ul > li {
+.Menu li {
+  color: white;
   text-decoration: none;
+  list-style: none;
+}
+.Menu a {
+  text-decoration: none;
+  color: #ffffff;
+  margin: auto;
+  display: flexbox;
+  justify-content: center;
+  width: 10px;
 }
