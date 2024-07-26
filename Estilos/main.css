@@ -14,8 +14,8 @@ body {
 }
 /*Estilos de metodos de pagos alternativos*/
 .Pagos {
-  height: 80px;
   width: 100%;
+  padding: 8px;
   color: #2e2e2e;
   display: flex;
   background-color: #00a09b;
@@ -52,28 +52,27 @@ body {
   background-color: #00a09b;
   box-shadow: 2px 5px 10px rgb(0, 0, 0);
 }
-.Menu li {
+.Menu ul {
   color: white;
-  text-decoration: none;
   list-style: none;
 }
-.Menu a {
+.Menu ul li a {
   text-decoration: none;
   color: #ffffff;
   margin: auto;
   display: inline-block;
   justify-content: center;
   width: 10px;
-  background-color: #018168;
   padding: 10px;
 }
-.Menu a:link {
+.Menu ul li a:link {
   color: white;
 }
 
-.Menu a:visited {
+.Menu ul li a:visited {
   color: Black;
 }
-.Menu a:hover {
+.Menu ul li a:hover {
   color: gray;
+  background-color: #2e2e2e;
 }
