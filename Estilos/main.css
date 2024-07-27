@@ -47,14 +47,15 @@ body {
 .Menu {
   margin: auto;
   display: block;
-  padding: 20px;
   position: relative;
   background-color: #00a09b;
   box-shadow: 2px 5px 10px rgb(0, 0, 0);
+  padding:20px;
 }
 .Menu ul {
   color: white;
   list-style: none;
+  padding-left: 0px;
 }
 .Menu ul li a {
   text-decoration: none;
@@ -73,6 +74,7 @@ body {
   color: Black;
 }
 .Menu ul li a:hover {
+  width: 150px;
   color: gray;
   background-color: #2e2e2e;
 }
