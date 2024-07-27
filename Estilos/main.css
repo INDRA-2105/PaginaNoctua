@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('path/to/Roboto-Regular.woff') format('woff'),
+       url('path/to/Roboto-Regular.ttf') format('truetype');
+  font-weight: 400; /* Regular weight */
+}
 /* Estilización del cuerpo de la página */
 body {
   margin: 0;
@@ -10,7 +16,7 @@ body {
   background-repeat: no-repeat;
   background-size: 1920px 430px; /* Ajusta el tamaño de la imagen de fondo para cubrir todo el contenedor */
   color: #ffffff;
-  font-family: "proxima-nova", sans-serif;
+  font-family:'Roboto', sans-serif;
 }
 
 /* Estilos de métodos de pagos alternativos */
@@ -40,7 +46,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: #252c2b;
+  color: #ffffff;
   text-shadow: 2px 5px 19px rgba(37, 44, 43, 0.5);
 }
 
@@ -50,7 +56,7 @@ nav {
   padding: 8px;
   background-color: #00a09b;
   font-size: 14px;
-  font-family: "proxima-nova", sans-serif;
+  font-family:'Roboto', sans-serif;
   box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
@@ -78,12 +84,13 @@ nav {
 
 /* Menú vertical (submenú) */
 .MenuVertical {
-  font-family: "proxima-nova", sans-serif;
+  font-family:'Roboto', sans-serif;
   position: absolute;
   list-style: none;
   width: 200px;
   background-color: #00b06d;
   display: none;
+  border-radius: 20px;
 }
 
 /* Mostrar el menú vertical al hacer hover en el elemento principal */
@@ -94,10 +101,12 @@ nav {
 /* Hover en los elementos del menú vertical */
 .MenuVertical > li:hover {
   background-color: #404040;
+  border-radius: 20px;
 }
 
 /* Estilos de los enlaces del menú vertical */
 .MenuVertical > li > a {
+  text-decoration: none;
   display: block;
   color: #e7eeed;
   padding: 15px 15px 15px 20px;
@@ -105,9 +114,27 @@ nav {
 
 /* Estilos del área de login */
 .Login {
-  top: 400px;
+  top: 395px;
   position: absolute;
   right: 10px; 
   padding: 10px;
   border-radius: 5px; /
+}
+
+.Login > input{
+  background-color: #252c2b;
+  border-radius: 5px;
+  padding: 5px;
+  width: 650px;
+}
+.button{
+  font-family:'Roboto', sans-serif;
+  background-color: #04a76852;
+  border-radius: 10px;
+  padding: 5px;
+  width: 100px;
+}
+.button:hover{
+  background-color: #94949452;
+  cursor: pointer;
 }
