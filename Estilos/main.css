@@ -1,7 +1,7 @@
 @font-face {
-  font-family: 'Roboto';
-  src: url('path/to/Roboto-Regular.woff') format('woff'),
-       url('path/to/Roboto-Regular.ttf') format('truetype');
+  font-family: "Roboto";
+  src: url("path/to/Roboto-Regular.woff") format("woff"),
+    url("path/to/Roboto-Regular.ttf") format("truetype");
   font-weight: 400; /* Regular weight */
 }
 /* Estilización del cuerpo de la página */
@@ -9,14 +9,13 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden; /* Elimina el scroll horizontal */
-  overflow-y: hidden; /* Elimina el scroll vertical */
   height: 100%;
   background-color: #2e2e2e;
   background-image: url(/Videos/Wallpaper.gif);
   background-repeat: no-repeat;
   background-size: 1920px 430px; /* Ajusta el tamaño de la imagen de fondo para cubrir todo el contenedor */
   color: #ffffff;
-  font-family:'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* Estilos de métodos de pagos alternativos */
@@ -56,7 +55,7 @@ nav {
   padding: 8px;
   background-color: #00a09b;
   font-size: 14px;
-  font-family:'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
@@ -65,7 +64,7 @@ nav {
   list-style: none;
   display: flex;
   margin: 0;
-  padding: 0;
+  padding: 0px;
   top: 0;
 }
 
@@ -84,7 +83,7 @@ nav {
 
 /* Menú vertical (submenú) */
 .MenuVertical {
-  font-family:'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   position: absolute;
   list-style: none;
   width: 200px;
@@ -113,28 +112,29 @@ nav {
 }
 
 /* Estilos del área de login */
-.Login {
-  top: 395px;
-  position: absolute;
-  right: 10px; 
-  padding: 10px;
-  border-radius: 5px; /
+.button {
+  width: 10%;
+  padding: 4px 5px;
+  background-color: #2e2e2e;
+  color: white;
+  margin-left: 1200px;
+  margin-bottom: 10px;
+  margin-top: -40px;
+  margin-bottom: -1px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-
-.Login > input{
-  background-color: #252c2b;
-  border-radius: 5px;
-  padding: 5px;
-  width: 650px;
+.button a {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
 }
-.button{
-  font-family:'Roboto', sans-serif;
-  background-color: #04a76852;
-  border-radius: 10px;
-  padding: 5px;
-  width: 100px;
-}
-.button:hover{
-  background-color: #94949452;
+.button:hover {
+  background-color: #494949;
   cursor: pointer;
 }
