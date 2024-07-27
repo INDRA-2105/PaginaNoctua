@@ -1,78 +1,112 @@
-/*estilizacion del cuerpo de la pagina*/
+/* Estilización del cuerpo de la página */
 body {
-  background-color: #2e2e2e;
-  background-image: url(/IMG/WalpaperPagina.jpg);
-  background-repeat: no-repeat;
-  background-size: 1550px 500px;
-  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Elimina el scroll horizontal */
+  overflow-y: hidden; /* Elimina el scroll vertical */
   height: 100%;
-  margin: auto;
+  background-color: #2e2e2e;
+  background-image: url(/Videos/Wallpaper.gif);
+  background-repeat: no-repeat;
+  background-size: 1920px 430px; /* Ajusta el tamaño de la imagen de fondo para cubrir todo el contenedor */
+  color: #ffffff;
   font-family: "proxima-nova", sans-serif;
-  font-style: italic;
-  font-weight: 900;
-  text-decoration: none;
 }
-/*Estilos de metodos de pagos alternativos*/
+
+/* Estilos de métodos de pagos alternativos */
 .Pagos {
-  width: 100%;
   padding: 8px;
   color: #2e2e2e;
   display: flex;
   background-color: #00a09b;
   justify-content: center;
-  align-items: center;
   font-size: 10px;
-  font-family: "proxima-nova", sans-serif;
-  box-shadow: 2px 5px 10px rgb(0, 0, 0);
+  box-shadow: 2px 5px 19px rgba(37, 44, 43, 0.5);
 }
-/*Estilos del logo de noctua*/
+
+/* Estilos del logo de noctua */
 .Logo {
-  border-radius: 500px;
+  border-radius: 50%;
   height: 200px;
   width: 200px;
+  display: block;
   margin: auto;
-  display: flex;
-  padding-top: 20px;
+  padding-top: 10px;
 }
+
+/* Estilos de bienvenida */
 .Bienvenida {
-  margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   color: #252c2b;
-  text-shadow: 2px 5px 19px #252c2b;
+  text-shadow: 2px 5px 19px rgba(37, 44, 43, 0.5);
 }
-/*Menu de navegacion de la pagina*/
-.Menu{
+
+/* Estilos del menú de navegación de la página */
+nav {
   width: 100%;
   padding: 8px;
-  color: #2e2e2e;
-  display: flex;
   background-color: #00a09b;
-  justify-content: center;
-  align-items: center;
-  font-size: 12px;
+  font-size: 14px;
   font-family: "proxima-nova", sans-serif;
-  box-shadow: 2px 5px 10px rgb(0, 0, 0);
+  box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.Menu ul{
- list-style: none;
- margin: 0;
- display: flex;
-overflow: hidden;
-top: 0;
-width: 100%;
-justify-content: center;
+/* Menú horizontal */
+.Menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  top: 0;
 }
 
-.Menu li{
-  float: left;
+/* Estilos de los elementos del menú */
+.Menu > li > a {
+  display: block;
+  padding: 10px;
+  color: #e7eeed;
+  text-decoration: none;
 }
-.Menu li a{
+
+/* Hover en los elementos del menú */
+.Menu > li:hover {
+  background-color: #404040;
+}
+
+/* Menú vertical (submenú) */
+.MenuVertical {
+  position: absolute;
+  list-style: none;
+  width: 200px;
+  background-color: #00b06d;
+  display: none;
+}
+
+/* Mostrar el menú vertical al hacer hover en el elemento principal */
+.Menu > li:hover .MenuVertical {
+  display: block;
+}
+
+/* Hover en los elementos del menú vertical */
+.MenuVertical > li:hover {
+  background-color: #404040;
+}
+
+/* Estilos de los enlaces del menú vertical */
+.MenuVertical > li > a {
   display: block;
   color: #e7eeed;
-  text-align: center;
-  text-decoration: none;
+  padding: 15px 15px 15px 20px;
+}
+
+/* Estilos del área de login */
+.Login {
+  top: 400px;
+  position: absolute;
+  right: 10px; 
+  padding: 10px;
+  border-radius: 5px; /
 }
