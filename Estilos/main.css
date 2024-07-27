@@ -3,7 +3,7 @@ body {
   background-color: #2e2e2e;
   background-image: url(/IMG/WalpaperPagina.jpg);
   background-repeat: no-repeat;
-  background-size: 1920px;
+  background-size: 1550px 500px;
   color: #ffffff;
   height: 100%;
   margin: auto;
@@ -44,38 +44,35 @@ body {
   text-shadow: 2px 5px 19px #252c2b;
 }
 /*Menu de navegacion de la pagina*/
-.Menu {
-  margin: auto;
-  display: block;
-  position: relative;
-  background-color: #00a09b;
-  box-shadow: 2px 5px 10px rgb(0, 0, 0);
-  padding:20px;
-}
-.Menu ul {
-  color: white;
-  list-style: none;
-  padding-left: 0px;
-}
-.Menu ul li a {
-  text-decoration: none;
-  color: #ffffff;
-  margin: auto;
-  display: inline-block;
-  justify-content: center;
-  width: 10px;
-  padding: 10px;
+.Menu{
+  width: 100%;
+  padding: 8px;
+  color: #2e2e2e;
   display: flex;
-}
-.Menu ul li a:link {
-  color: white;
+  background-color: #00a09b;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-family: "proxima-nova", sans-serif;
+  box-shadow: 2px 5px 10px rgb(0, 0, 0);
 }
 
-.Menu ul li a:visited {
-  color: Black;
+.Menu ul{
+ list-style: none;
+ margin: 0;
+ display: flex;
+overflow: hidden;
+top: 0;
+width: 100%;
+justify-content: center;
 }
-.Menu ul li a:hover {
-  width: 150px;
-  color: gray;
-  background-color: #2e2e2e;
+
+.Menu li{
+  float: left;
+}
+.Menu li a{
+  display: block;
+  color: #e7eeed;
+  text-align: center;
+  text-decoration: none;
 }
