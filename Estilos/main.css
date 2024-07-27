@@ -78,6 +78,7 @@ nav {
 
 /* Menú vertical (submenú) */
 .MenuVertical {
+  font-family: "proxima-nova", sans-serif;
   position: absolute;
   list-style: none;
   width: 200px;
