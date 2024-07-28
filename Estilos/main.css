@@ -65,7 +65,7 @@ nav {
   display: flex;
   margin: 0;
   padding: 0px;
-  top: 0;
+  top: 1;
 }
 
 /* Estilos de los elementos del menú */
@@ -147,5 +147,5 @@ nav {
   width: 15%;
   margin-left: 5px;
   margin-top: 9px;
-  
+
 }
