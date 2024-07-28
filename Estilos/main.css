@@ -79,6 +79,7 @@ nav {
 /* Hover en los elementos del menú */
 .Menu > li:hover {
   background-color: #404040;
+  border-radius: 10px;
 }
 
 /* Menú vertical (submenú) */
@@ -138,4 +139,13 @@ nav {
 .button:hover {
   background-color: #494949;
   cursor: pointer;
+}
+/*botones de jugar ahora y discord*/
+.JugarAhora{
+  background-color: #50ff7e;
+  color: #404040;
+  width: 15%;
+  margin-left: 5px;
+  margin-top: 9px;
+  
 }
